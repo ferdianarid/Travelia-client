@@ -1,18 +1,34 @@
 import React from 'react'
 
-const Destination = () => {
-       return (
-              <React.Fragment>
-                     <div className="max-w-xs bg-blue-50 rounded-md border border-gray-200">
-                            <img src="https://cdn.idntimes.com/content-images/community/2019/02/2018-02-01-39875-1517462499-large-60d97e6631e637497c2db252b926af17_600x400.jpg" alt="bali" />
-                            <div className="heading p-4">
-                                   <h1 className='text-xl font-bold text-gray-800'>Bali National Beach</h1>
-                                   <p className="py-2 font-bold text-gray-700 text-sm">Bali, Indonesia</p>
-                                   <p className='text-md text-gray-600 leading-relaxed'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque alias reiciendis vero dolor eum provident sint nostrum quo illo aliquid!</p>
+// import Primary Button
+import PrimaryButton from "./partials/PrimaryButton"
+
+class Destination extends React.Component {
+       constructor(props) {
+              super(props)
+              this.state = {
+                     images: this.props.images,
+                     heading: this.props.heading,
+                     subheading: this.props.subheading,
+                     price: this.props.price,
+                     location: this.props.location
+              }
+       }
+       render() {
+              return (
+                     <React.Fragment>
+                            <div className="max-w-xs bg-blue-50 rounded-md border border-gray-200">
+                                   <img className='rounded-t-lg' src={this.props.images} alt="bali" />
+                                   <div className="heading p-5">
+                                          <h1 className='text-xl font-bold text-gray-800'>{this.props.heading}</h1>
+                                          <p className="py-2 font-medium text-gray-900 text-sm">{this.props.location}</p>
+                                          <p className='text-md text-gray-600 leading-relaxed mb-4'>{this.props.subheading}</p>
+                                          <PrimaryButton buttonText="Select Destination" />
+                                   </div>
                             </div>
-                     </div>
-              </React.Fragment>
-       )
+                     </React.Fragment>
+              )
+       }
 }
 
 export default Destination
