@@ -26,12 +26,12 @@ class Destination extends React.Component {
        render() {
               return (
                      <React.Fragment>
-                            <div className="max-w-xs bg-blue-50 rounded-md border border-gray-200">
-                                   <img className='rounded-t-lg' src={this.props.images} alt="bali" />
+                            <div className="w-60 bg-blue-50 rounded-md border border-gray-200">
+                                   <img className='rounded-t-lg h-40 w-full object-cover' src={this.props.images} alt="bali" />
                                    <div className="heading p-5">
                                           <h1 className='text-xl font-bold text-gray-800'>{this.props.heading}</h1>
                                           <p className="py-2 font-medium text-gray-900 text-sm">{this.props.location}</p>
-                                          <p className='text-md text-gray-600 leading-relaxed mb-4'>{this.props.subheading}</p>
+                                          <p className='text-sm text-gray-600 leading-relaxed mb-4'>{this.props.subheading}</p>
                                           <PrimaryButton onClick={this.notification} buttonText="Select Destination" />
                                           {/* Toast Config */}
                                           <ToastContainer
