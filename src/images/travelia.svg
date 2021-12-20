@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="53.1633mm" height="14.9012mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 921.13 258.19"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="800">
+	<font-face 
+		font-family="SF Pro Display">
+		<font-face-src>
+			<font-face-name name="SF Pro Display Heavy"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="722" d="M14.1614 0l188.007 0 43.9959 154.83 229.83 0 44.0077 -154.83 187.995 0 -237.33 704.667 -219.164 0 -237.342 -704.667zm345.176 551.336l3.49605 0 76.169 -267.672 -155.834 0 76.169 267.672z"/>
+   <glyph unicode="E" horiz-adv-x="584" d="M53.1612 0l483.01 0 0 143.999 -303.672 0 0 142.665 285.507 0 0 134.669 -285.507 0 0 139.169 303.672 0 0 144.165 -483.01 0 0 -704.667z"/>
+   <glyph unicode="I" horiz-adv-x="285" d="M53.1612 0l179.338 0 0 704.667 -179.338 0 0 -704.667z"/>
+   <glyph unicode="L" horiz-adv-x="552" d="M53.1612 0l470.845 0 0 143.999 -291.507 0 0 560.667 -179.338 0 0 -704.667z"/>
+   <glyph unicode="R" horiz-adv-x="661" d="M53.1612 0l179.338 0 0 242.668 91.1689 0 121.169 -242.668 201.165 0 -141.165 269.503c73.3344,31.8306 120.165,109.83 120.165,200.161l0 1.00393c0,149.503 -96.165,233.999 -266.668,233.999l-305.172 0 0 -704.667zm179.338 372.495l0 196.842 104.834 0c62.9998,0 105,-38.9998 105,-98.1728l0 -0.992122c0,-59.5037 -40.4998,-97.6768 -103.996,-97.6768l-105.838 0z"/>
+   <glyph unicode="T" horiz-adv-x="612" d="M216.838 0l178.665 0 0 560.502 194.326 0 0 144.165 -567.328 0 0 -144.165 194.338 0 0 -560.502z"/>
+   <glyph unicode="V" horiz-adv-x="703" d="M237.33 0l228.507 0 223.168 704.667 -200.669 0 -134.834 -529.829 -3.3307 0 -135.342 529.829 -200.669 0 223.168 -704.667z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"SF Pro Display";font-variant:normal;font-style:normal;font-weight:800;src:url("#FontID0") format(svg)}
+    .fil3 {fill:black}
+    .fil0 {fill:#0000CF}
+    .fil1 {fill:#9696FF}
+    .fil2 {fill:white}
+    .fnt0 {font-weight:800;font-size:146.7px;font-family:'SF Pro Display'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1840178341840">
+   <circle class="fil0" cx="129.09" cy="129.09" r="129.09"/>
+   <circle class="fil1" cx="293.27" cy="129.09" r="129.09"/>
+   <text x="226.32" y="181.64"  class="fil2 fnt0">TR</text>
+   <text x="413.21" y="181.64"  class="fil3 fnt0">AVELIA</text>
+  </g>
+ </g>
+</svg>
