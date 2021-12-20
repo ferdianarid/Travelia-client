@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+
 // import logo
 import traveliaLogo from "../images/travelia.png"
 
@@ -20,18 +22,20 @@ function Navbar() {
 							</div>
 							<div className="hidden md:block">
 								<div className="ml-10 flex items-baseline space-x-4">
-									<a href="#" alt="link" className=" text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
-										Dashboard
-									</a>
-									<a href="#" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
-										Projects
-									</a>
-                                                               <Facility />
-									<a href="#" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">Category
-									</a>
-									<a href="#" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
-										Contact
-									</a>
+									<Router>
+										<Link to="/" alt="link" className=" text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
+											Dashboard
+										</Link>
+										<Link to="/project" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
+											Projects
+										</Link>
+										<Facility />
+										<Link to="/category" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">Category
+										</Link>
+										<Link to="/contact" alt="link" className="text-blue-600 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-xl text-sm font-medium">
+											Contact
+										</Link>
+									</Router>
 								</div>
 							</div>
 						</div>
