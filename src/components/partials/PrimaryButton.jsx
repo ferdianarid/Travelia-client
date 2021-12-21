@@ -2,9 +2,10 @@ import React from 'react'
 
 // Primary Button Component
 const PrimaryButton = ( props ) => {
+       const { children } = props
        return (
               <React.Fragment>
-                     <button onClick={props.onClick} className='py-2 w-full px-4 rounded-md bg-gradient-to-r from-green-400 to-blue-500 border-none text-white font-medium hover:bg-blue-800 transition-all'>{ props.buttonText }</button>
+                     <button className="bg-blue-600 hover:bg-blue-800 py-2 px-4 md:px-6 rounded-md mt-5 font-bold text-white">{ children }</button>
               </React.Fragment>
        )
 }
