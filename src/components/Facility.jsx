@@ -2,6 +2,8 @@ import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { Fragment } from 'react'
 
+import algoliaImage from "../images/algolia.png"
+
 const solutions = [
 	{
 		name: 'Insights',
@@ -79,7 +81,7 @@ export default function Facility() {
 											</a>
 										))}
 									</div>
-									<div className="p-4 bg-gray-50">
+									<div className="p-4 bg-gray-50 flex items-center justify-between">
 										<a
 											href="##"
 											className="flow-root px-2 py-2 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
@@ -93,6 +95,7 @@ export default function Facility() {
 												Start integrating products and tools
 											</span>
 										</a>
+										<img className='w-auto h-7' src={algoliaImage} alt="algolia" />
 									</div>
 								</div>
 							</Popover.Panel>
