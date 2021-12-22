@@ -1,14 +1,17 @@
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import { Fragment } from 'react'
+import React, { Fragment } from 'react'
+
+// import Link React Router
+import { Link } from "react-router-dom"
 
 import algoliaImage from "../images/algolia.png"
 
 const solutions = [
 	{
-		name: 'Insights',
+		name: 'Tour Guide',
 		description: 'Measure actions your users take',
-		href: '##',
+		href: '/tourguide',
 		icon: IconOne,
 	},
 	{
@@ -36,7 +39,7 @@ export default function Facility() {
 		<div className="w-full max-w-sm px-3">
 			<Popover className="relative">
 				{({ open }) => (
-					<>
+					<React.Fragment>
 						<Popover.Button
 							className={`
 								${open ? '' : 'text-opacity-90'}
@@ -62,9 +65,9 @@ export default function Facility() {
 								<div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 									<div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
 										{solutions.map((item) => (
-											<a
+											<Link
 												key={item.name}
-												href={item.href}
+												to={item.href}
 												className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
 											>
 												<div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white sm:h-12 sm:w-12">
@@ -78,7 +81,7 @@ export default function Facility() {
 														{item.description}
 													</p>
 												</div>
-											</a>
+											</Link>
 										))}
 									</div>
 									<div className="p-4 bg-gray-50 flex items-center justify-between">
@@ -100,7 +103,7 @@ export default function Facility() {
 								</div>
 							</Popover.Panel>
 						</Transition>
-					</>
+					</React.Fragment>
 				)}
 			</Popover>
 		</div>

@@ -7,6 +7,7 @@ import google from "../images/google.png"
 import tesla from  "../images/tesla.png"
 import microsoft from  "../images/microsoft.png"
 
+// partnership components
 const Partnership = () => {
        return (
               <React.Fragment>
