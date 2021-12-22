@@ -24,6 +24,7 @@ import "./App.css"
 const App = () => {
         return (
 		<React.Fragment>
+			<div className="wrapContainer">
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
@@ -33,6 +34,7 @@ const App = () => {
 					<Route path="*" element={<NotFound />} />
 				</Routes>
 			</BrowserRouter>
+			</div>
 		</React.Fragment>
         )
 }
