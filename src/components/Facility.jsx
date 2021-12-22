@@ -14,19 +14,19 @@ const solutions = [
 	{
 		name: 'Automations',
 		description: 'Create your own targeted content',
-		href: '##',
+		href: '/automations',
 		icon: IconTwo,
 	},
 	{
 		name: 'Reports',
 		description: 'Keep track of your growth',
-		href: '##',
+		href: '/reports',
 		icon: IconThree,
 	},
 	{
 		name: 'Insights',
 		description: 'Measure actions your users take',
-		href: '##',
+		href: '/insights',
 		icon: IconOne,
 	},
 ]

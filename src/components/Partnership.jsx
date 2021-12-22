@@ -10,20 +10,20 @@ import microsoft from  "../images/microsoft.png"
 const Partnership = () => {
        return (
               <React.Fragment>
-                     <div className="w-full h-24 flex justify-between">
-                            <div className="w-1/5 flex items-center">
+                     <div className="w-full h-16 flex flex-col md:flex-row items-center justify-between">
+                            <div className="w-2/3 my-6 m-auto md:w-1/5 flex items-center">
                                    <img className='w-3/4 m-auto' src={facebook} alt="facebook" />
                             </div>
-                            <div className="w-1/5 flex items-center">
+                            <div className="w-2/3 my-6 m-auto md:w-1/5 flex items-center">
                                    <img className='w-3/4 m-auto' src={microsoft} alt="microsoft" />
                             </div>
-                            <div className="w-1/5 flex items-center">
+                            <div className="w-2/3 my-6 m-auto md:w-1/5 flex items-center">
                                    <img className='w-3/4 m-auto' src={tesla} alt="tesla" />
                             </div>
-                            <div className="w-1/5 flex items-center">
+                            <div className="w-2/3 my-6 m-auto md:w-1/5 flex items-center">
                                    <img className='w-3/4 m-auto' src={google} alt="google" />
                             </div>
-                            <div className="w-1/5 flex items-center">
+                            <div className="w-2/3 my-6 m-auto md:w-1/5 flex items-center">
                                    <img className='w-3/4 m-auto' src={amazon} alt="amazon" />
                             </div>
                      </div>
