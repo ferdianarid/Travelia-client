@@ -3,7 +3,9 @@ import React from 'react'
 const LayoutsIndex = ({ children }) => {
        return (
               <React.Fragment>
-                     { children }
+                     <div className="px-4 md:px-32">
+                            { children }
+                     </div>
               </React.Fragment>
        )
 }
