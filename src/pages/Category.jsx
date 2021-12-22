@@ -7,6 +7,7 @@ import LayoutsIndex from "../layouts"
 import Heading from '../components/partials/Heading'
 import Subheading from '../components/partials/Subheading'
 
+// Category
 const Category = () => {
        return (
               <React.Fragment>
