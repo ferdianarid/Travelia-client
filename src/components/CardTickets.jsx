@@ -41,7 +41,7 @@ const CardTickets = ( props ) => {
                                                  </svg>
                                                  <p className="text-xs">{ remaining }</p>
                                           </div>
-                                          </div>
+                                   </div>
                                    {/* button */}
                                    <DetailsButton>View Details</DetailsButton>
                                    </div>
