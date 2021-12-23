@@ -15,6 +15,9 @@ import Category from "./pages/Category"
 // import Contact Pages
 import Contact from "./pages/Contact"
 
+// import Tickets Pages
+import Tickets from "./pages/Tickets"
+
 // import Not Found State | 404 Pages
 import NotFound from "./pages/NotFound"
 
@@ -30,6 +33,7 @@ const App = () => {
 				<Routes>
 					<Route path="/" element={<Homepage />} />
 					<Route path="/category" element={<Category />} />
+					<Route path="/tickets" element={<Tickets />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="*" element={<NotFound />} />
 				</Routes>
